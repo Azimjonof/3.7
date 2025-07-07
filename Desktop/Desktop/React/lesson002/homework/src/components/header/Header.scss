@@ -1,0 +1,35 @@
+.header{
+    background-image: url('../../assets/header.png');   
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    .navbar{
+        width: 940px;
+        height: 74px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 17px;
+        margin-bottom: 110px;
+        transition: 0.3s;
+        cursor: pointer;
+         span:active{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+        .nav__logo{
+            font-size: 26px;
+            line-height: 26px;
+            color: white;
+        }
+        .navbar,ul,li{
+            display: flex;
+            gap: 21px;
+            color: white;
+            font-family: "Oxygen";
+            font-size: 12px;
+            line-height: 20px;
+            cursor: pointer;
+        }
+    }
+}

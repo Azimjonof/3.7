@@ -1,0 +1,36 @@
+.hero{
+    width: 500px;
+    height: 160px;
+    margin: 0 auto;
+    :first-child{
+        font-size: 50px;
+        line-height: 51px;
+        letter-spacing: 2px;
+        color: white;
+        padding-bottom: 20px;
+
+    }
+    :nth-child(2){
+        font-size: 17px;
+        line-height: 20px;
+        color: #ffffffa1;
+        font-family: Oxygen;
+        padding-bottom: 31px;
+    }
+    .hero__btn{
+        padding: 12px 31px;
+        display: block;
+        margin: 0 auto;
+        background-color: #DD783F;
+        border: none;
+        border-radius: 3px;
+        font-size: 13px;
+        line-height: 20px;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    :active{
+        transform: scale(1.2);
+    }
+}

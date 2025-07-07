@@ -1,0 +1,30 @@
+.body__color{
+    background-color: #F7F7F7;
+    height: 1255px;
+    .card__text{
+        font-size: 20px;
+        line-height: 27px;
+        color: #2E2E2E;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 16px;
+        font-family: Oxygen;
+    }
+    .chiziq{
+        height: 1px;
+        width: 188px;
+        background-color: #DEDEDE;
+        margin: 0px auto;
+        margin-bottom: 16px;
+    }
+    .wrapper__card{
+        .card{
+            width: 500px;
+            height: 500px;
+            border: none;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

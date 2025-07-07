@@ -1,0 +1,21 @@
+.features{
+    height: 65px;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        li{
+            color: #768088;
+            font-size: 14px;
+            transition: 0.3s;
+            span{
+                cursor: pointer;
+            }
+        }
+        :active{
+            transform: scale(1.2);
+            transition: 0.3s;
+        }
+    }
+}
